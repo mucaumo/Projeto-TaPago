@@ -15,7 +15,7 @@ public class TapagoApplication {
 	}
 
 	@RequestMapping
-	@ResponseBody
+	@ResponseBody 
 	public String home(){
 		return "Tá Pago";
 	}
